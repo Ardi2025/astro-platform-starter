@@ -3,22 +3,32 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Ardi">
-  <div style="text-align: center; padding: 80px 20px; max-width: 700px; margin: 0 auto;">
-    <!-- Logo removed since it's not loading for now -->
-    
-    <h1 style="font-size: 2.75rem; margin-bottom: 20px;">Welcome to Ardi</h1>
-    
-    <p style="font-size: 1.25rem; color: #333; margin-bottom: 50px;">
+  <div style="
+    max-width: 720px;
+    margin: 80px auto;
+    padding: 40px 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  ">
+    <h1 style="font-size: 2.5rem; margin-bottom: 20px; color: #1A1A1A;">
+      Welcome to Ardi
+    </h1>
+
+    <p style="font-size: 1.2rem; color: #444; margin-bottom: 40px;">
       The ultimate space for people to find bla bla.
     </p>
 
-    <section style="margin-top: 40px;">
-      <h2 style="font-size: 1.5rem; margin-bottom: 10px;">Contact Us</h2>
-      <p>Email: 
+    <div style="margin-top: 30px;">
+      <h2 style="font-size: 1.5rem; margin-bottom: 10px; color: #1A1A1A;">Contact Us</h2>
+      <p style="font-size: 1rem;">
+        Email: 
         <a href="mailto:support@ardi.ae" style="color: #F56722; font-weight: 500;">
           support@ardi.ae
         </a>
       </p>
-    </section>
+    </div>
   </div>
 </Layout>
